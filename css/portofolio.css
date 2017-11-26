@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 54px;
+  background: url(../img/background.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #858585;
+  letter-spacing: 0.5px;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgba(80,80,80, 0.8);
+  letter-spacing: 0.185em;
+}
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4rem;
+}
+h2 {
+  font-size: 3.5rem;
+}
+.subheading {
+  font-weight: 500;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.1rem;
+}
+.list-social-icons a {
+  color: transparent;
+  text-decoration: none;
+  transition: color ease 0.25s;
+  padding: 0 10px;
+}
+.list-social-icons a:hover {
+  color: #005433;
+  text-shadow: 0 2px 3px rgba(0,0,0,0.40), 0 2px 3px rgba(0,0,0,0.45);
+}
+.list-social-icons a .fa-lg {
+  font-size: 1.75rem;
+}
+.list-icons {
+  font-size: 3rem;
+  color: #0d6643;
+}
+.list-icons .list-inline-item i:hover {
+  color: #005433;
+}
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: letter-spacing ease 0.5s;
+}
+#sideNav .navbar-nav .nav-item .nav-link:hover {
+  letter-spacing: 5px;
+}
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.14);
+    box-shadow: 0 2px 3px rgba(0,0,0,0.40), 0 2px 3px rgba(0,0,0,0.45);
+  }
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+section.resume-section {
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding-top: 2rem !important;
+  padding-bottom: 5rem !important;
+  background: rgba(0, 0, 0,0.7);
+}
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+.bg-primary {
+  background: linear-gradient(to bottom, #00301d, #005428) !important;
+  -webkit-box-shadow: inset -8px 0px 10px -5px rgba(0,0,0,0.4);
+  -moz-box-shadow: inset -8px 0px 10px -5px rgba(0,0,0,0.4);
+  box-shadow: inset -8px 0px 10px -5px rgba(0,0,0,0.4);
+}
+.text-primary {
+  color: #005433 !important;
+}
+a {
+  color: #0d6643;
+}
+a:hover, a:focus, a:active {
+  color: #005433;
+  text-decoration: none;
+}
